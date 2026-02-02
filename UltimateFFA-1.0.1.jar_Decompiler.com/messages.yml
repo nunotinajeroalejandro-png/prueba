@@ -1,0 +1,47 @@
+# UltimateFFA - Mensajes Personalizables
+prefix: "&b&lFFA &8» &f"
+no-permission: "&cNo tienes rango administrativo."
+
+# COMBATE
+combat:
+  start-actionbar: "&c&l⚔ EN COMBATE &7(15s) ⚔"
+  end-actionbar: "&a&l✔ COMBATE FINALIZADO"
+  blocked-command: "&c&l⚔ EN COMBATE ⚔ &7No puedes usar comandos ahora."
+  leave-broadcast: "&c%player% se desconectó en combate y murió."
+  lobby-sword-loading: "&eCargando PvP: %t%/3"
+  lobby-sword-active: "&c¡PvP Activado!"
+  lobby-sword-disabled: "&aPvP Desactivado."
+  wait-sword: "&c¡Espera a que tu espada cargue (3s)!"
+
+# DUELOS (1v1)
+duel:
+  queue-searching: "&aBuscando partida (Kit: &e%kit%&a)..."
+  queue-cancel: "&cHas salido de la cola de espera."
+  invite-sent: "&aInvitación enviada a &e%target%"
+  no-invites: "&cNo tienes invitaciones pendientes."
+  not-enough-money: "&cNo tienes suficiente dinero para esta apuesta."
+  opponent-no-money: "&cTu oponente no tiene suficiente dinero."
+  bet-deducted: "&cSe han descontado $%amount% de tu cuenta."
+  bet-refund: "&eSe te devolvió la apuesta de $%amount%"
+  victory: "&6&l🏆 ¡VICTORIA! 🏆"
+  defeat: "&c&l☠ DERROTA ☠"
+  draw: "&c&l¡TIEMPO AGOTADO! &7El duelo terminó en empate."
+  abandon: "&cHas abandonado el duelo. Se cuenta como derrota."
+  opponent-abandon: "&aTu oponente ha abandonado. ¡Victoria para ti!"
+  arena-occupied: "&cTodas las arenas están ocupadas. Inténtalo en un momento."
+  spectate-limit: "&cEse gladiador ya no está en la arena."
+
+# EXPLORACIÓN Y LOBBY
+lobby:
+  joined-arena: "&fHas aterrizado en &6&l%arena%"
+  protection: "&7🛡 Tienes 3 segundos de protección."
+  return: "&aHas vuelto al lobby correctamente."
+  bounty-broadcast: "&b&lBOUNTY &8» &e%player% &fpuso &6$%amount% &fpor &c%target%"
+  rank-up-broadcast: "&6&l★ ASCENSO ★ &fEl jugador &b%player% &fha subido a &e%rank%"
+
+# MODO ESPECTADOR
+spectator:
+  title: "&b&lMODO ESPECTADOR"
+  subtitle: "&fViendo a: &e%target%"
+  start: "&7🔭 Ahora eres invisible. Usa la &ccama &7para volver."
+  leave: "&aHas vuelto al lobby y ya eres visible."

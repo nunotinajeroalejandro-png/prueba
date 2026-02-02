@@ -1,0 +1,41 @@
+name: UltimateFFA
+version: 1.0.1
+main: me.ethernova.ultimateffa.Main
+api-version: 1.20
+authors: [ethernova]
+description: Plugin profesional de FFA y Duelos 1v1.
+
+commands:
+  ffa:
+    description: Comando principal.
+    usage: /ffa <args>
+    aliases: [uffa]
+  shop:
+    description: Abre la tienda de cosméticos.
+    usage: /shop
+    aliases: [tienda, store]
+  lobby:
+    description: Ir al lobby.
+    usage: /lobby
+    aliases: [hub, l]
+  ffasetkit:
+    description: Admin kits.
+    usage: /ffasetkit <nombre>
+    permission: ffa.admin
+  spectate:
+    description: Espectador.
+    usage: /spectate
+    aliases: [spec]
+  1v1:
+    description: Duelos.
+    usage: /1v1 <args>
+    aliases: [duel]
+  prestige:
+      description: Subir de nivel y reiniciar stats
+
+permissions:
+  ffa.admin:
+    default: op
+  ffa.vip:
+    description: Acceso a cosméticos exclusivos.
+    default: false

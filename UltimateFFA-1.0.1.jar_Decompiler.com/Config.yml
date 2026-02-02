@@ -1,0 +1,20 @@
+# UltimateFFA Config - Version 1.0.1
+# Desarrollado por ethernova
+
+# Mensajes generales
+prefix: "&8[&bUltimateFFA&8] &r"
+no-permission: "&cNo tienes permiso para usar esto."
+
+# Configuración del Lobby
+# (Se actualizará automáticamente cuando uses /ffasetkit lobby)
+lobby:
+  world: world
+  x: 0.0
+  y: 64.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+
+# Ajustes de combate
+combat-log-time: 10
+spawn-protection-time: 3
